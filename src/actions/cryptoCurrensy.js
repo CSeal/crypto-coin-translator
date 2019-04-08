@@ -1,0 +1,11 @@
+import { makeActionCreator } from '../utility';
+export const CRYPTO_CURRENCY_LOADING_START = 'CRYPTO_CURRENCY_LOADING_START';
+export const CRYPTO_CURRENCY_LOADING_FINISH = 'CRYPTO_CURRENCY_LOADING_FINISH';
+export const CRYPTO_CURRENCY_LOAD = 'CRYPTO_CURRENCY_LOAD';
+export const CRYPTO_CURRENCY_CHANGE_ACTIVE = 'CRYPTO_CURRENCY_CHANGE_ACTIVE';
+export const CURRENCY_CHANGE_ACTIVE = 'CURRENCY_CHANGE_ACTIVE';
+export const cryptoCurrensyLoadAction = makeActionCreator(CRYPTO_CURRENCY_LOAD, 'payload');
+export const cryptoCurrensyLoadingStart = makeActionCreator(CRYPTO_CURRENCY_LOADING_START, '');
+export const cryptoCurrensyLoadingFinish = makeActionCreator(CRYPTO_CURRENCY_LOADING_FINISH, '');
+export const cryptoCurrensyChangeActive = makeActionCreator(CRYPTO_CURRENCY_CHANGE_ACTIVE, 'payload');
+export const сurrensyChangeActive = makeActionCreator(CURRENCY_CHANGE_ACTIVE, 'payload');

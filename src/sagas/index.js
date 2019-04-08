@@ -1,0 +1,1 @@
+export { cryptoCurrensyLoadEventInterceptor } from './cryptoCurrensyLoadSaga';

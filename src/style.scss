@@ -1,0 +1,84 @@
+body {
+  background: #06152e;
+}
+h2{
+  text-align: center;
+  color: #7dacf2;
+  font-weight: 200;
+}
+h3{
+  text-align: center;
+  color: #86c451;
+  font-weight: 200;
+  padding: 50px 0 0 0;
+  font-size: 1.5em;
+  span{
+    font-weight: 700;
+  }
+}
+.cryptoCoinsList{
+  display: flex;
+  justify-content: center;
+  label{
+    flex: 0 0 30%;
+    background: #0d2f52;
+    margin: 0 5px;
+    padding: 10px 10px 30px 10px;
+    & > div{
+      display: flex;
+      justify-content: center;
+        .cryptoView{
+        padding-right: 15px;
+        text-align: center;
+      }
+    }
+    .cryptoCourse{
+      color: #7dacf2;
+      span{
+        display: inline-block,
+
+      }
+      div{
+        margin: 0 0 10px;
+      }
+      .cryptoCoinName{
+        font-weight: 700;
+        padding: 0 5px 0 0;
+      }
+    }
+  }
+}
+.cryptoCoinInput{
+  color: #86c451;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  input{
+    margin: 0 0 0 10px;
+    background: transparent;
+    border: 1px solid #0d2f52;
+    border-radius: 3px;
+    color: #7dacf2;
+    height: 30px;
+    padding: 0 5px;
+    width: 300px;
+    font-size: 1em;
+    outline: none;
+  }
+}
+
+.coinsListView{
+  display: flex;
+  justify-content: center;
+}
+.coinView{
+  margin: 20px 10px 0 10px;
+  padding: 10px;
+  font-weight: 700;
+  background: #0d2f52;
+  color: #86c451;
+  &.activeCoinView{
+    background: #86c451;
+    color: #0d2f52;
+  }
+}
